@@ -99,8 +99,8 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = "Ihre Endpunktzahl beträgt " + (score * 100) / questions.length + "% von insgesamt " + 100 + "%!";
-    nextButton.innerHTML = "Recommencer";
+    questionElement.innerHTML = "Ihre Endpunktzahl beträgt " + (score * 100) / questions.length + " von insgesamt " + 100 + "%!";
+    nextButton.innerHTML = "neu starten";
     nextButton.style.display = "block";
  }
 function handleNextQuestion() {
