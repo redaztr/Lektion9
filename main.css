@@ -8,7 +8,9 @@
 
 body {
     background-image: url("feiern.jpg");
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .app{
     width: 90%;
@@ -18,10 +20,22 @@ body {
     margin: 100px auto 0;
     padding: 30px;
 }
-.app h1{
+
+.app .head{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.app .head h1{
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: 600;
+}
+.timer {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #e63946;
+    font-weight: 500;
 }
 hr{
     background-color:rgba(190, 172, 172, 0.747);
@@ -57,11 +71,21 @@ hr{
     font-weight: 400;
     color: #444;
     transition: background-color 0.3s ease;
+    animation: drop 0.5s ease;
+}
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .btn:hover:not([disabled]) {
     background-color: #d1cfcf;
-
 }
 .app #next-btn{
     background-color: #555;
