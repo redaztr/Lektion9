@@ -192,7 +192,7 @@ const questions = [
             answers: [
                 { text: "Freunden", correct: true },
                 { text: "Freundin", correct: false },
-                { text: "Freunde", correct: true },
+                { text: "Freunde", correct: false },
                 { text: "Freund", correct: false }
             ]
         },
@@ -278,7 +278,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 // Countdown timer variables
-let timeLeft = 15; // Temps pour chaque question
+let timeLeft = 30; // Temps pour chaque question
 const timerElement = document.getElementById("time-left");
 const timerEl = document.getElementById("timer");
 let timerInterval; // Intervalle pour le timer
@@ -286,7 +286,7 @@ let timerInterval; // Intervalle pour le timer
 // Fonction pour démarrer le timer
 function startTimer() {
     clearInterval(timerInterval); // Réinitialiser tout timer existant
-    timeLeft = 15; // Réinitialiser le temps pour la nouvelle question
+    timeLeft = 30; // Réinitialiser le temps pour la nouvelle question
     timerElement.innerHTML = timeLeft; // Afficher le temps initial
     timerInterval = setInterval(() => {
         timeLeft--;
