@@ -107,7 +107,7 @@ const questions = [
             ]
         },
         {
-            question: "Ich habe die kerze .... ",
+            question: "Ich habe die Kerze .... ",
             answers: [
                 { text: "eingeschaltet", correct: false },
                 { text: "angemacht", correct: false },
@@ -116,7 +116,7 @@ const questions = [
             ]
         },
         {
-            question: "Was ist die plural von Präsident?",
+            question: "Was ist die Plural von Präsident?",
             answers: [
                 { text: "Präsidenten", correct: true },
                 { text: "Präsidens", correct: false },
@@ -125,7 +125,7 @@ const questions = [
             ]
         },
         {
-            question: "Die Musik .... mir.",
+            question: "Die Musik .... mir sehr.",
             answers: [
                 { text: "gibt", correct: false },
                 { text: "stimmt", correct: false },
@@ -134,7 +134,7 @@ const questions = [
             ]
         },
         {
-            question:"Der Geburtstag war für die .... Gäste.",
+            question:"Die .... Gäste waren auf dem Geburtstag.",
             answers: [
                 { text: "nette", correct: false },
                 { text: "nettes", correct: false },
@@ -143,7 +143,7 @@ const questions = [
             ]
         },
         {
-            question:"Ich fand die .... Hochzeit.",
+            question:"Die .... Hochzeit hat mir sehr gut gefallen.",
             answers: [
                 { text: "schöne", correct: true},
                 { text: "schöner", correct: false },
@@ -161,30 +161,30 @@ const questions = [
             ]
         },
         {
-            question:"Sie hat die .... Gäste begrüßt.",
+            question:"Er hat die .... Kuchen gebacken.",
             answers: [
-                { text: "herzliche", correct: false },
-                { text: "herzlicher", correct: false },
-                { text: "herzlichem", correct: false },
-                { text: "herzlichen", correct: true }
-            ]
-        },
-        {
-            question:".... Party war für die .... Freundin.",
-            answers: [
-                { text: "Das/tolle", correct: false },
-                { text: "Die/tollen", correct: false },
-                { text: "Das/tollen", correct: false },
-                { text: "Die/tolle", correct: true }
-            ]
-        },
-        {
-            question:"Der Kuchen war für die .... Kinder",
-            answers: [
+                { text: "leckern", correct: false },
                 { text: "leckere", correct: false },
-                { text: "leckeren", correct: true },
                 { text: "leckerem", correct: false },
-                { text: "leckerer", correct: false }
+                { text: "leckeren", correct: true }
+            ]
+        },
+        {
+            question:"Ich habe .... Party für meine .... Freundin organisiert.",
+            answers: [
+                { text: "ein/tolle", correct: false },
+                { text: "ein/tollen", correct: false },
+                { text: "einen/tollen", correct: false },
+                { text: "eine/tolle", correct: true }
+            ]
+        },
+        {
+            question:"Vorfreude ist .... .... Freude",
+            answers: [
+                { text: "der schönste", correct: false },
+                { text: "die schönste", correct: true },
+                { text: "das schönste", correct: false },
+                { text: "der schönstere", correct: false }
             ]
         },
         {
