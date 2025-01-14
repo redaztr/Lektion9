@@ -287,7 +287,7 @@ let timerInterval; // Intervalle pour le timer
 function startTimer() {
     clearInterval(timerInterval); // Réinitialiser tout timer existant
     timeLeft = 30; // Réinitialiser le temps pour la nouvelle question
-    timerElement.innerHTML = "verbleibende Zeit"; // Afficher le temps initial
+    timerElement.innerHTML = Time left; // Afficher le temps initial
     timerInterval = setInterval(() => {
         timeLeft--;
         timerElement.innerHTML = timeLeft;
