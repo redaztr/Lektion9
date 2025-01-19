@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question: "Alles gut zur ....",
+        question: "Alles gute zur ....",
         answers: [
             { text: "Hochzeit", correct: true },
             { text: "Geburtstag", correct: false },
@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        question: "Ich gratuliere .... ganz herzlich zum Bachelor geschafft.",
+        question: "Ich gratuliere .... ganz herzlich zum Bachelor.",
         answers: [
             { text: "Dich", correct: false },
             { text: "Sich", correct: false },
@@ -98,7 +98,7 @@ const questions = [
             ]
         },
         {
-            question: "Sie gibt .... mein Buch.",
+            question: "Sie gibt .... mein Buch zurück.",
             answers: [
                 { text: "mich", correct: false },
                 { text: "mir", correct: true },
