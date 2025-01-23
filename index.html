@@ -12,6 +12,15 @@
 
 </head>
 <body>
+<video autoplay muted loop id="myVideo"><source src="feiern.mp4" type="video/mp4"></video>
+<div class="overlay"></div>
+<div class="Willkommen">
+    <h1>Willkommen</h1>
+    <p>Dieses Quiz ist nur für Lektion 9 und enthält allgemeine Fragen, Grammatikaufgaben und Wortschatzübungen.</p>
+    <p>Viel Glück</p>
+    <button id="start-btn">Start</button>
+</div>
+
 <div class="app">
     <div class="head">
     <h1>Quiz</h1>
@@ -31,4 +40,25 @@
 </div>
 <script src="main.js"></script>
 </body>
+<script>
+    // main.js
+document.addEventListener("DOMContentLoaded", () => {
+  const startBtn = document.getElementById("start-btn");
+  const willkommenDiv = document.querySelector(".Willkommen");
+  const appDiv = document.querySelector(".app");
+  const overlay = document.querySelector(".overlay");
+
+
+  // Masquer l'application au début
+  appDiv.style.display = "none"; 
+
+  // Lorsque le bouton Start est cliqué
+  startBtn.addEventListener("click", () => {
+    willkommenDiv.style.display = "none"; // Cache la section Willkommen
+    overlay.style.display = "none"; // Affiche l'overlay
+    appDiv.style.display = "block"; // Affiche la section app
+  });
+});
+
+</script>
 </html>
