@@ -13,6 +13,17 @@ video{
     min-height: 100%;
     z-index: -1;
 }
+@media (max-width: 767px) {
+    video{
+        display: none;
+    }
+    body{
+        background-image: url('feiern.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
 .Willkommen{
     height: 400px;
     color: white;
