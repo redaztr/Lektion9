@@ -31,7 +31,7 @@ video{
     position:fixed;
     background: rgba(255, 228, 196, 0.534);
     width: 600px;
-    max-width: 100%;
+    max-width: 96%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
